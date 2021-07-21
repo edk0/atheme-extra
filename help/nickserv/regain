@@ -1,14 +1,11 @@
 Help for REGAIN:
 
-REGAIN disconnects an old user session, or somebody
-attempting to use your nickname without authorization,
-then changes your nickname to the given nickname.
-This may not work, disconnecting you, if the target
-client reconnects automatically.
+REGAIN regains access to your nickname from
+a user that is using your nick.
 
-If you are logged in to the nick's account, you need
-not specify a password, otherwise you have to. In the
-latter case, you will still have to identify later.
+If you are logged in to the account associated with
+the nickname, you need not specify a password,
+otherwise you have to.
 
 Syntax: REGAIN <nick> [password]
 
